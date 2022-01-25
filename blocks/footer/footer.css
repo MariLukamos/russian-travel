@@ -1,12 +1,12 @@
 .footer {
-    margin: 0 auto;
-    display: flex; 
-    justify-content: space-between;
-    max-width: 1184px;
-    box-sizing: border-box;
-    min-height: 134px;
-    align-items: flex-end;
-    padding-bottom: 24px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  box-sizing: border-box;
+  min-height: 134px;
+  align-items: flex-end;
+  padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1280px) {

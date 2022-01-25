@@ -1,13 +1,13 @@
 .photo-grid__list {
-    margin: 0 auto;
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    row-gap: 16px;
-    column-gap: 16px;
-    line-height: 0.624;
-    box-sizing: border-box;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  row-gap: 16px;
+  column-gap: 16px;
+  line-height: 0.624;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
