@@ -1,0 +1,19 @@
+.header__lang {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.16;
+    margin: 0;
+}
+
+@media screen and (max-width: 479px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+}

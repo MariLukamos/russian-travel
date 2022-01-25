@@ -1,0 +1,6 @@
+.lead__overlay {
+    grid-row: 1;
+    grid-column: 1;
+    margin: 8% 0 0 3%;
+    width: 92%;
+}

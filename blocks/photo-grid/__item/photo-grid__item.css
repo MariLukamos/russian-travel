@@ -1,0 +1,6 @@
+.photo-grid__item {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}

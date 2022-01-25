@@ -1,0 +1,9 @@
+.places__text {
+}
+
+@media screen and (max-width: 639px) {
+    .places__text {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

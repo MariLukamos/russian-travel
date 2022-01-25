@@ -1,0 +1,28 @@
+.intro__container {
+    max-width: 690px;
+    padding: 92px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.62;
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    padding: 88px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__container {
+    width: 100%;
+  }
+}
+  
+@media screen and (max-width: 450px) {
+  .intro__container {
+    padding: 64px 0;
+  }
+}
