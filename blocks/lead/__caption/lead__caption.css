@@ -5,7 +5,7 @@
     line-height: 1.4;
     letter-spacing: 1.5px;
     margin-top: 8px;
-    justify-self: flex-start;
+    align-self: flex-start;
     text-transform: uppercase;
 }
 
