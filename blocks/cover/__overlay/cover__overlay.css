@@ -1,6 +1,6 @@
 .cover__overlay {
    background-image: url(../../../images/cover__background.png);
-   background-size: cover;
+   background-size: contain;
    background-repeat: no-repeat;
    width: 100%;
    min-height: 740px;
@@ -10,6 +10,7 @@
    align-items: center;
    text-align: center;
    position: relative;
+   background-position: 50% 50%;
 }
 
 .cover__overlay::before {
@@ -17,7 +18,7 @@
    height: 100%;
    width: 100%;
    opacity: .3;
-   background-color: #000;
+   background-color: rgba(42 44 47 / 30%);
    transition: opacity .7s ease-in-out;
    z-index: 2;
    position: absolute;
