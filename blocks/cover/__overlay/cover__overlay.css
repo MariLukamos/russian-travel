@@ -1,6 +1,6 @@
 .cover__overlay {
    background-image: url(../../../images/cover__background.png);
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    width: 100%;
    min-height: 740px;
@@ -29,6 +29,13 @@
 .cover__overlay:hover::before {
 opacity: .8;
 }
+
+@media screen and (max-width: 1280px) {
+   .cover__overlay {
+      min-height: calc((100vw - 1024px) / (1280 - 1024) * (740 - 640) + 640px);
+   }
+}
+
 
 @media screen and (max-width: 1024px) {
    .cover__overlay {
