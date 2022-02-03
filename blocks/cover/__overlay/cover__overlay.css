@@ -18,7 +18,7 @@
    height: 100%;
    width: 100%;
    opacity: .3;
-   background-color: rgba(42 44 47 / 30%);
+   background-color: #2A2C2F;
    transition: opacity .7s ease-in-out;
    z-index: 2;
    position: absolute;
